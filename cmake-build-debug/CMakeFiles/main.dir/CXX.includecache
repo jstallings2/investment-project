@@ -6,19 +6,37 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Game.h
+User.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
+StockCollectionHandler.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/StockCollectionHandler.h
+
 C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Stock.h
 string
 -
 
-C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/StockCollectionHandler.h
 vector
 -
+
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
 Stock.h
 C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Stock.h
+vector
+-
 
-C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/User.cpp
-../include/User.h
-C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/Game.cpp
+../include/Game.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Game.h
+chrono
+-
+cstdint
+-
+fstream
+-
 iostream
+-
+thread
 -
 

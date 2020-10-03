@@ -20,6 +20,7 @@ set(SOURCE_FILES
         src/Stock.cpp
         src/Game.cpp
         src/driver.cpp
+        src/StockCollectionHandler.cpp
         )
 
 add_executable(main ${SOURCE_FILES})

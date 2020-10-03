@@ -90,6 +90,9 @@
 		<Unit filename="C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/Stock.cpp">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/StockCollectionHandler.cpp">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/User.cpp">
 			<Option target="main"/>
 		</Unit>

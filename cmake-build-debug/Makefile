@@ -176,6 +176,33 @@ src/Stock.cpp.s:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Stock.cpp.s
 .PHONY : src/Stock.cpp.s
 
+src/StockCollectionHandler.obj: src/StockCollectionHandler.cpp.obj
+
+.PHONY : src/StockCollectionHandler.obj
+
+# target to build an object file
+src/StockCollectionHandler.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj
+.PHONY : src/StockCollectionHandler.cpp.obj
+
+src/StockCollectionHandler.i: src/StockCollectionHandler.cpp.i
+
+.PHONY : src/StockCollectionHandler.i
+
+# target to preprocess a source file
+src/StockCollectionHandler.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/StockCollectionHandler.cpp.i
+.PHONY : src/StockCollectionHandler.cpp.i
+
+src/StockCollectionHandler.s: src/StockCollectionHandler.cpp.s
+
+.PHONY : src/StockCollectionHandler.s
+
+# target to generate assembly for a file
+src/StockCollectionHandler.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/StockCollectionHandler.cpp.s
+.PHONY : src/StockCollectionHandler.cpp.s
+
 src/User.obj: src/User.cpp.obj
 
 .PHONY : src/User.obj
@@ -245,6 +272,9 @@ help:
 	@echo ... src/Stock.obj
 	@echo ... src/Stock.i
 	@echo ... src/Stock.s
+	@echo ... src/StockCollectionHandler.obj
+	@echo ... src/StockCollectionHandler.i
+	@echo ... src/StockCollectionHandler.s
 	@echo ... src/User.obj
 	@echo ... src/User.i
 	@echo ... src/User.s

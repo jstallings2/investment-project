@@ -6,6 +6,7 @@
 #define PROJECT1_GAME_H
 
 #include "User.h"
+#include "StockCollectionHandler.h"
 
 const int NUMBER_OF_USER_STOCKS = 4;
 
@@ -14,16 +15,14 @@ public:
   Game();
   User *getUser();
   void initializeGame();
-  Stock *getRandomStock();
 
 private:
   User *user;
-  void initializeAvailableStocks();
   void initializeUser();
   void initializeUserStocks();
 
-  // contains a vector of all the stocks available in this game
-  std::vector<Stock *> stockCollection;
+  // contains all the stocks available in this game
+  StockCollectionHandler stockCollection;
 };
 
 #endif // PROJECT1_GAME_H

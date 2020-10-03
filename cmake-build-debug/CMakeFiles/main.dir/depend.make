@@ -3,11 +3,16 @@
 
 CMakeFiles/main.dir/src/Game.cpp.obj: ../include/Game.h
 CMakeFiles/main.dir/src/Game.cpp.obj: ../include/Stock.h
+CMakeFiles/main.dir/src/Game.cpp.obj: ../include/StockCollectionHandler.h
 CMakeFiles/main.dir/src/Game.cpp.obj: ../include/User.h
 CMakeFiles/main.dir/src/Game.cpp.obj: ../src/Game.cpp
 
 CMakeFiles/main.dir/src/Stock.cpp.obj: ../include/Stock.h
 CMakeFiles/main.dir/src/Stock.cpp.obj: ../src/Stock.cpp
+
+CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj: ../include/Stock.h
+CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj: ../include/StockCollectionHandler.h
+CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj: ../src/StockCollectionHandler.cpp
 
 CMakeFiles/main.dir/src/User.cpp.obj: ../include/Stock.h
 CMakeFiles/main.dir/src/User.cpp.obj: ../include/User.h
@@ -15,6 +20,7 @@ CMakeFiles/main.dir/src/User.cpp.obj: ../src/User.cpp
 
 CMakeFiles/main.dir/src/driver.cpp.obj: ../include/Game.h
 CMakeFiles/main.dir/src/driver.cpp.obj: ../include/Stock.h
+CMakeFiles/main.dir/src/driver.cpp.obj: ../include/StockCollectionHandler.h
 CMakeFiles/main.dir/src/driver.cpp.obj: ../include/User.h
 CMakeFiles/main.dir/src/driver.cpp.obj: ../src/driver.cpp
 

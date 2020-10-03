@@ -4,11 +4,16 @@
 CMakeFiles/main.dir/src/Game.cpp.obj
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Game.h
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Stock.h
+ C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/StockCollectionHandler.h
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/Game.cpp
 CMakeFiles/main.dir/src/Stock.cpp.obj
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Stock.h
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/Stock.cpp
+CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj
+ ../include/Stock.h
+ ../include/StockCollectionHandler.h
+ C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/StockCollectionHandler.cpp
 CMakeFiles/main.dir/src/User.cpp.obj
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Stock.h
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
@@ -16,5 +21,6 @@ CMakeFiles/main.dir/src/User.cpp.obj
 CMakeFiles/main.dir/src/driver.cpp.obj
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Game.h
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Stock.h
+ C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/StockCollectionHandler.h
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
  C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/driver.cpp
