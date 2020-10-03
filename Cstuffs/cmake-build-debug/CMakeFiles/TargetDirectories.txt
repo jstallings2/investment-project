@@ -1,3 +1,0 @@
-C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/cmake-build-debug/CMakeFiles/main.dir
-C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/cmake-build-debug/CMakeFiles/rebuild_cache.dir
