@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Stock.h
+string
+-
+
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
+vector
+-
+Stock.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Stock.h
+
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/User.cpp
+../include/User.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
+iostream
+-
+
