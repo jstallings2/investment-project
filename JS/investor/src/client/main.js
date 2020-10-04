@@ -14,6 +14,162 @@ class MyApp {
    * Initialize everything and set the initial page
    */
   constructor() {
+    const evList = {events: [
+      {
+        "eventName": "Government Outsourcing Tariffs",
+        "description": "The Senate has moved to raise tariffs on the imports of outsourced clothing manufacturing. All clothing stocks fall.",
+        "affectedCompanies": ["Adidas", "Nike", "Old Navy", "Levi"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 0.9,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "E-Coli Outbreak",
+        "description": "In a large food distribution warehouse, an E-Coli outbreak has been detected. McDonald's and Chipotle stock dips.",
+        "affectedCompanies": ["McDonald's", "Chipotle"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 0.85,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "GM Recall",
+        "description": "GM has had multiple lawsuite filed against them in concern with the F-Model pickup airbags. Ford stock drops.",
+        "affectedCompanies": ["Ford"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 0.87,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "Environmentalist Movements",
+        "description": "On social media, influencers have condemned Starbucks and Pepsi's use of environmentally-damaging packagings. Starbucks and Pepsi stock dips slightly.",
+        "affectedCompanies": ["Starbucks", "Pepsi"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 0.95,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "Anti-Tech Documentary Released",
+        "description": "Netflix released a documentary containing prominent executives discussing the marketing tactics used by big tech companies, received poorly by the public. Tech companies' stock drops mildly.",
+        "affectedCompanies": ["YouTube", "Microsoft", "Apple", "Google"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 0.86,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "Blockbuster announces bankruptcy",
+        "description": "With the overwhelming emergence of streaming platforms, Blockbuster finds itself slowly drowning in negative profits. Blockbuster stock drops substantially",
+        "affectedCompanies": ["Blockbuster"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 0.27,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "Lithium Scarcity",
+        "description": "Leading companies in refinery firms report that production levels in Lithium for Lithium-ion batteries are diminishing. Tesla and BMW's stock drops.",
+        "affectedCompanies": ["Tesla", "BMW"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 0.87,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "Emerging Virus Concerns",
+        "description": "The CDC has announced that a prominent virus warranting limited capacity in all dining environments will mandate reduced capacity in all consumer locations. All dining stocks drop moderately.",
+        "affectedCompanies": ["McDonald's", "Chipotle", "Pepsi", "Starbucks"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 0.85,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "Wrath of Elon",
+        "description": "Tesla CEO Elon Musk cryptically takes to Twitter appraising that Tesla stock \"overvalued\". Tesla stock drops.",
+        "affectedCompanies": ["Tesla"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 0.92,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "Year-Long Discount Special",
+        "description": "Old Navy and Levi have announced a year-long special for ordering online clothes at a discount. Amongst an incredible sales boost, Old Navy and Levi stock boosts.",
+        "affectedCompanies": ["Old Navy", "Levi"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 1.1,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "New Automotive Reveals",
+        "description": "Ford recently unveiled their new F-90,000, boasting 90,000 horsepower. Concurrently, Toyota unveiled their newest hybrid car that can drive from California to New York on one gallon of gas. Both stocks increase significantly.",
+        "affectedCompanies": ["Ford","Toyota"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 1.23,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "ABC Acquisition",
+        "description": "In a stunning recent announcement, ABC is being acquired by a larger unnamed company. However, the CEO of ABC promises it will be \"huge for morale\". ABC stock increases slightly.",
+        "affectedCompanies": ["ABC"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 1.05,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "iPhone-Youtube Deal",
+        "description": "YouTube has finally agreed to let music play outside of the Youtube application. In addition, Apple announces plan to integrate a software application with YouTube's API. Both stocks increase.",
+        "affectedCompanies": ["YouTube", "Apple"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 1.08,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "Olympic Games Approaching",
+        "description": "With the impending Olympics, Nike and Adidas have renewed short-term contracts for substantial athletic-wear production. Both stocks increase.",
+        "affectedCompanies": ["Nike", "Adidas"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 1.12,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "DC Universe",
+        "description": "In a rivalry with the MCU, Warner Bros. has announced a lengthy plan of future releases featuring assorted DC Universe characters. Warner Bros. stock increases.",
+        "affectedCompanies": ["Warner Bros."],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 1.12,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "Influencer Attraction",
+        "description": "With the release of the Travis Scott meal, McDonald's revenue has seen an increase. Similarly, the adjunct \"Charli\" order at Dunkin has brought an increase in coffee addiction in general. Both McDonald's and Starbucks stocks increase.",
+        "affectedCompanies": ["Starbucks","McDonald's"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 1.04,
+        "hasOccurred": false
+      },
+
+      {
+        "eventName": "Automotive Software Integration",
+        "description": "Microsoft has recently struck a deal with BMW to integrate their C# language and software applications to be used for BMW's automotive computations. Both stocks increase.",
+        "affectedCompanies": ["Microsoft", "BMW"],
+        "modifier_tag": "PERCENT_MODIFY",
+        "amount": 1.12,
+        "hasOccurred": false
+      },
+          
+
+    ]};
     const stList = {stocks: [
       {
         "brandName": "Adidas",
@@ -186,12 +342,12 @@ class MyApp {
       },
 
       {
-        "brandName": "NBC",
+        "brandName": "ABC",
         "sector": "entertainment",
         "volatility": 1,
         "growthRate": 1,
         "price": 18.00,
-        "imagePath":"../assets/ENTERTAINMENT_NBC.png",
+        "imagePath":"../assets/ENTERTAINMENT_ABC.png",
         "quantity": 0
       },
 
@@ -331,7 +487,39 @@ class stocks {
       }
     });
   }
+
+  calculateNetWorth() {
+    let total = 0;
+    // sum up the prices*shares of all the stocks in hand?
+    for (item in this.stockList) {
+        total += (item.price * item.quantity); 
+   }
+    this.holdings = total;
+    this.net = this.holdings + this.cash;
+  }
+  
 }
+
+class event {
+  constructor(list) {
+    this.eventName = list.name;
+    this.description = list.description;
+    this.affectedCompanies = list.affectedCompanies;
+    this.modifier_tag = list.modifier_tag;
+    this.amount = list.amount;
+    this.hasOccurred = false;
+  }
+
+  getRandomEvent() {
+    return evList[Math.floor(Math.random() * evList.events.length)];
+  }
+
+}
+
+
+
+
+
 
 /*************************************************************************/
 
