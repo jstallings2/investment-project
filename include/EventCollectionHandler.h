@@ -7,13 +7,13 @@
 
 #include "Event.h"
 
-class EventCollectionHandler{
+class EventCollectionHandler {
 public:
-    EventCollectionHandler();
-    Event* getRandomEvent();
-private:
-    void initializeEvents();
-    std::vector<Event*> eventCollection;
+  EventCollectionHandler();
+  Event *getRandomEvent();
 
+private:
+  void initializeEvents();
+  std::vector<Event *> eventCollection;
 };
-#endif //PROJECT1_EVENTCOLLECTIONHANDLER_H
+#endif // PROJECT1_EVENTCOLLECTIONHANDLER_H

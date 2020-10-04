@@ -6,16 +6,17 @@
 #define PROJECT1_STOCKCOLLECTIONHANDLER_H
 
 #include <vector>
+#include "Stock.h"
 
-class StockCollectionHandler{
+class StockCollectionHandler {
 public:
-    StockCollectionHandler();
-    void initializeAvailableStocks();
-    Stock* getRandomStock();
+  StockCollectionHandler();
+  void initializeAvailableStocks();
+  Stock *getRandomStock();
+  std::vector<Stock *> getStockCollection();
 
 private:
-
-    std::vector<Stock*> stockCollection;
+  std::vector<Stock *> stockCollection;
 };
 
-#endif //PROJECT1_STOCKCOLLECTIONHANDLER_H
+#endif // PROJECT1_STOCKCOLLECTIONHANDLER_H
