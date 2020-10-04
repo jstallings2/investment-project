@@ -36,6 +36,4 @@ void User::printStocks() {
   }
 }
 
-std::vector<Stock *> User::getStockContainer() {
-    return stockContainer;
-}
+std::vector<Stock *> User::getStockContainer() { return stockContainer; }
