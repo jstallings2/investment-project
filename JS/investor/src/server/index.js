@@ -15,10 +15,16 @@ app.use(logger("dev"));
 app.use(bodyParser.json({}));
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const data = ["alpha", "beta", "gamma", "delta", "bar"];
-app.get("/data", (req, res) => {
-  res.status(200).send(data);
-});
+/*const instructions = {instructs: ["The goal of the game is to make as much money as possible",
+    "You make money by trading stocks, you may buy and sell stocks",
+    "There are a number of market events that will occur throughout the game, invest accordingly",
+    "There is a daily news blurb that will include a risky stock, a safe play and an up and coming stock",
+    "Have fun!"]};
+app.get("/instructionData", (req, res) => {
+  res.status(200).send(instructions);
+});*/
+
+//const portfolio = ;
 
 // No matter what the client asks for, serve the SPA base HTML
 let indexFile = path.resolve(__dirname, "../../public/index.html");

@@ -1,0 +1,161 @@
+[
+    {
+        "brandName": "Adidas",
+        "sector": "clothing",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+    {
+        "brandName": "Nike",
+        "sector": "clothing",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+    {
+        "brandName": "Old Navy",
+        "sector": "clothing",
+        "volatility": 1,
+        "growthRateRate": 1,
+        "price": 0.00
+    },
+    {
+        "brandName": "Levi",
+        "sector": "clothing",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+    {
+        "brandName": "Toyota",
+        "sector": "auto",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+    {
+        "brandName": "Ford",
+        "sector": "auto",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+    {
+        "brandName": "BMW",
+        "sector": "auto",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+    {
+        "brandName": "Tesla",
+        "sector": "auto",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+    {
+        "brandName": "YouTube",
+        "sector": "tech",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+
+    {
+        "brandName": "Microsoft",
+        "sector": "tech",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+    {
+        "brandName": "Apple",
+        "sector": "tech",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+    {
+        "brandName": "Google",
+        "sector": "tech",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+
+    {
+        "brandName": "Pepsi",
+        "sector": "dining",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+
+    {
+        "brandName": "McDonald's",
+        "sector": "dining",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+
+    {
+        "brandName": "Chipotle",
+        "sector": "dining",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+
+    {
+        "brandName": "Starbucks",
+        "sector": "dining",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+    {
+        "brandName": "Warner Bros.",
+        "sector": "entertainment",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+    {
+        "brandName": "NBC",
+        "sector": "entertainment",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+    {
+        "brandName": "Blockbuster",
+        "sector": "entertainment",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    },
+
+    {
+        "brandName": "Disney",
+        "sector": "entertainment",
+        "volatility": 1,
+        "growthRate": 1,
+        "price": 0.00
+    }
+]
