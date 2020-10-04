@@ -1,81 +1,81 @@
-<h1>Auto:</h1>
+<h1>Entertainment:</h1>
 <div class="error"></div>
 <% stocks.forEach(stock => { %>
-    <%if (stock.brandName === 'Toyota') {%>
+    <%if (stock.brandName === 'Warner Bros.') {%>
         <div>
             <span class="brandName"><%=stock.brandName%></span>
             <span>Price: $<%=stock.price%>,</span>
             <span>You own: <%=stock.quantity%></span>
             <span>
                 <form>
-                    <input id="buyToyotaAmmt" type="number" placeholder="0"/>
-                    <button id="buyToyota">Buy</button>
+                    <input id="buyWarner Bros.Ammt" type="number" placeholder="0"/>
+                    <button id="buyWarner Bros.">Buy</button>
                 </form>
             </span>
             <span>
                 <form>
-                    <input id="sellToyotaAmmt" type="number" placeholder="0"/>
-                    <button id="sellToyota">Sell</button>
+                    <input id="sellWarner Bros.Ammt" type="number" placeholder="0"/>
+                    <button id="sellWarner Bros.">Sell</button>
                 </form>
             </span>
         </div>
     <%}%>
-    <%if (stock.brandName === 'Ford') {%>
+    <%if (stock.brandName === 'ABC') {%>
         <div>
             <span class="brandName"><%=stock.brandName%></span>
             <span>Price: $<%=stock.price%>,</span>
             <span>You own: <%=stock.quantity%></span>
             <span>
                 <form>
-                    <input id="buyFordAmmt" type="number" placeholder="0"/>
-                    <button id="buyFord">Buy</button>
+                    <input id="buyABCAmmt" type="number" placeholder="0"/>
+                    <button id="buyABC">Buy</button>
                 </form>
             </span>
             <span>
                 <form>
-                    <input id="sellFordAmmt" type="number" placeholder="0"/>
-                    <button id="sellFord">Sell</button>
+                    <input id="sellABCAmmt" type="number" placeholder="0"/>
+                    <button id="sellABC">Sell</button>
                 </form>
             </span>
         </div>
     <%}%>
-    <%if (stock.brandName === 'BMW') {%>
+    <%if (stock.brandName === 'Blockbuster') {%>
         <div>
             <span class="brandName"><%=stock.brandName%></span>
             <span>Price: $<%=stock.price%>,</span>
             <span>You own: <%=stock.quantity%></span>
             <span>
                 <form>
-                    <input id="buyBMWAmmt" type="number" placeholder="0"/>
-                    <button id="buyBMW">Buy</button>
+                    <input id="buyBlockbusterAmmt" type="number" placeholder="0"/>
+                    <button id="buyBlockbuster">Buy</button>
                 </form>
             </span>
             <span>
                 <form>
-                    <input id="sellBMWAmmt" type="number" placeholder="0"/>
-                    <button id="sellBMW">Sell</button>
+                    <input id="sellBlockbusterAmmt" type="number" placeholder="0"/>
+                    <button id="sellBlockbuster">Sell</button>
                 </form>
             </span>
         </div>
     <%}%>
-    <% if (stock.brandName === 'Tesla') { %>
+    <% if (stock.brandName === 'Disney') { %>
         <div>
             <span class="brandName"><%=stock.brandName%></span>
             <span>Price: $<%=stock.price%>,</span>
             <span>You own: <%=stock.quantity%></span>
             <span>
                 <form>
-                    <input id="buyTeslaAmmt" type="number" placeholder="0"/>
-                    <button id="buyTesla">Buy</button>
+                    <input id="buyDisneyAmmt" type="number" placeholder="0"/>
+                    <button id="buyDisney">Buy</button>
                 </form>
             </span>
-             <span>
+            <span>
                 <form>
-                    <input id="sellTeslaAmmt" type="number" placeholder="0"/>
-                    <button id="sellTesla">Sell</button>
+                    <input id="sellDisneyAmmt" type="number" placeholder="0"/>
+                    <button id="sellDisney">Sell</button>
                 </form>
             </span>
         </div>
     <% } %>
 <% }); %>
-<button id="auto-cancel">Cancel</button>
+<button id="entertainment-cancel">Cancel</button>
