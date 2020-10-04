@@ -1,7 +1,7 @@
   
   
 // Change to make sense
-STARTING_CASH_VALUE = 1000.00;
+STARTING_CASH_VALUE = 500.00;
 // Number of shares of each stock the user starts with
 STARTING_SHARES = 5;
 
@@ -11,8 +11,8 @@ class User {
 
 
 
-    // an array of ints representing shares
-    _userStocks = [];
+    // an array of Stock objects
+    _stockContainer = [];
 
     // Total user net worth to be calculated from the stocks they hold
     // Doubles as the "score" for this game
@@ -22,25 +22,40 @@ class User {
 
     // Only used at beginning
     initStock(stock) {
-        this._userStocks.push(STARTING_SHARES);
+        this._stockContainer.push(stock);
     }
 
     buyStock(stock, shares) {
-        this._userStocks.push(Object.freeze({stock:stock, shares:shares}));
+        stock.setQuantity(stock.getQuantity() + shares);
+        this._stockContainer.push(stock);
+        // Make sure the user has enough money
+        if(this._cash >= shares * price) {
+            this._cash -= shares*price;
+        }
+        else{
+            console.log("You do not have enough cash to perform this transaction...\n")
+            console.log("Max number of shares: " + Math.floor(this._cash / shares) + "\n");
+        }
+        this._netWorth = this.calculateNetWorth();
+        
     }
 
     sellStock(stock, shares) {
-        // How do we nab the exact stock we want out of the array?
-        // Searching algorithm? Is there a more efficient way?
-        // TODO
-        return 0;
+        for(item of this._stockContainer) {
+            if (item.getName() === stock) {
+                shares = Math.min(shares, item.getQuantity());
+                item.setQuantity(stock.getQuantity() - shares);
+                if(item.getQuantity() === 0) {
+                    removeStock()
+                }
+            }
+        }
     }
 
     calculateNetWorth() {
         let total = 0;
         // sum up the prices*shares of all the stocks in hand?
-        for (item in _userStocks) {
-            // if we go js object route, instead of numbers we would have field names
+        for (item in this._stockContainer) {
             total += (item.stock.price() * item.shares); 
        }
 

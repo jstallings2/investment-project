@@ -174,6 +174,7 @@ class MyApp {
 
 
       ]};
+    
     const stList = {stocks: [
       {
         "brandName": "Adidas",
@@ -558,6 +559,7 @@ class stocks {
   calculateNetWorth() {
     let total = 0;
     // sum up the prices*shares of all the stocks in hand?
+
     this.stockList.stocks.forEach(stock => {
       total += (stock.price * stock.quantity);
     })
