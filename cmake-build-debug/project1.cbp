@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/Event.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/EventCollectionHandler.cpp">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/Game.cpp">
 			<Option target="main"/>
 		</Unit>

@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c3985c6-ff4d-4ef9-b423-6dd53fb5fbe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -27,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/src/Game.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/src/Game.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/src/Stock.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/src/Stock.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/src/User.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/src/User.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/src/driver.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/src/driver.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
@@ -34,7 +34,12 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/project1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/project1.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Stock.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Stock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/User.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/User.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stock.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/driver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/driver.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601717979108</updated>
       <workItem from="1601717980581" duration="9035000" />
-      <workItem from="1601759110271" duration="2536000" />
+      <workItem from="1601759110271" duration="11850000" />
     </task>
     <servers />
   </component>
@@ -108,34 +113,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601722104942" />
-    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1601760920048">
+    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1601770590959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601760920048" />
+    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601770590959" />
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601724261490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601724261490" />
+    <state x="562" y="119" key="CommitChangelistDialog2" timestamp="1601771123558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="562" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601771123558" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1601718111613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601718111613" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1601761676393">
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom" timestamp="1601771012934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601761676393" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1601761676393">
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601771012934" />
+    <state width="1877" height="346" key="GridCell.Tab.0.center" timestamp="1601771012934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601761676393" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1601761676392">
+    <state width="1877" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601771012934" />
+    <state width="1877" height="346" key="GridCell.Tab.0.left" timestamp="1601771012934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601761676392" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1601761676393">
+    <state width="1877" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601771012934" />
+    <state width="1877" height="346" key="GridCell.Tab.0.right" timestamp="1601771012934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601761676393" />
+    <state width="1877" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601771012934" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601761676392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,6 +161,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601761676392" />
+    <state x="701" y="169" key="refactoring.ChangeSignatureDialog" timestamp="1601763562681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="169" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601763562681" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601723186453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -162,7 +175,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/driver.cpp</url>
-          <line>9</line>
+          <line>12</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

@@ -7,6 +7,7 @@
 
 #include "User.h"
 #include "StockCollectionHandler.h"
+#include "EventCollectionHandler.h"
 
 const int NUMBER_OF_USER_STOCKS = 4;
 
@@ -15,14 +16,18 @@ public:
   Game();
   User *getUser();
   void initializeGame();
+  Event *getNextEvent();
+  void triggerEventExecution();
 
 private:
   User *user;
   void initializeUser();
   void initializeUserStocks();
+  void executeEvent(Event *event);
 
   // contains all the stocks available in this game
   StockCollectionHandler stockCollection;
+  EventCollectionHandler eventCollection;
 };
 
 #endif // PROJECT1_GAME_H

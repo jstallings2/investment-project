@@ -18,6 +18,7 @@ public:
   // Int return value of stock
   int sellStock(Stock *stock);
   void printStocks();
+  std::vector<Stock *> getStockContainer();
 
 private:
   std::vector<Stock *> stockContainer;

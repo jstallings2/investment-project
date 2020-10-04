@@ -17,6 +17,9 @@ public:
   double getVolatility();
   double getGrowthRate();
   double getValue();
+  void setValue(double mod);
+  void setGrowthRate(double mod);
+  void setVolatility(double mod);
 
 private:
   std::string name;

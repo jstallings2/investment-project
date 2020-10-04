@@ -18,3 +18,15 @@ double Stock::getVolatility() { return volatility; }
 double Stock::getGrowthRate() { return growthRate; }
 
 double Stock::getValue() { return value; }
+
+void Stock::setValue(double mod) {
+    value = mod;
+}
+
+void Stock::setGrowthRate(double mod) {
+    growthRate = mod;
+}
+
+void Stock::setVolatility(double mod) {
+    volatility = mod;
+}

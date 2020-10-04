@@ -21,6 +21,7 @@ set(SOURCE_FILES
         src/Game.cpp
         src/driver.cpp
         src/StockCollectionHandler.cpp
-        )
+        src/Event.cpp
+        src/EventCollectionHandler.cpp)
 
 add_executable(main ${SOURCE_FILES})
