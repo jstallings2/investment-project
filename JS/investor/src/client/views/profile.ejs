@@ -2,8 +2,10 @@
 <h3 id="Cash">Cash: $</h3>
 <h3 id="Net">Net Worth: $</h3>
 <ul>
-    <% data.forEach(item => { %>
-        <li><%= item %></li>
+    <% stocks.forEach(stock => { %>
+        <%if (stock.quantity > 0) {%>
+                <li><%=stock.quantity%> share(s) of <%=stock.brandName%> @ $<%=stock.price%> each</li>
+        <%}%>
     <% }); %>
 </ul>
 <button id="toMarket">Market</button>

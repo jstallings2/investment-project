@@ -5,6 +5,10 @@ import profileTemplate from "./views/profile.ejs";
 import instructionsTemplate from "./views/Instructions.ejs";
 import marketTemplate from "./views/market.ejs";
 import autoSectorTemplate from "./views/autoSector.ejs";
+import clothingSectorTemplate from "./views/clothingSector.ejs";
+import techSectorTemplate from "./views/techSector.ejs";
+import diningSectorTemplate from "./views/diningSector.ejs";
+import entertainmentSectorTemplate from "./views/entertainmentSector.ejs";
 import "./base.css";
 
 /*************************************************************************/
@@ -60,7 +64,7 @@ class MyApp {
         "growthRate": 1,
         "price": 8.00,
         "imagePath":"../assets/AUTO_TOYOTA.png",
-        "quantity": 0
+        "quantity": 0.0
       },
       {
         "brandName": "Ford",
@@ -227,6 +231,35 @@ class MyApp {
     this.setRoute(window.location.pathname);
   }
 
+  setUpStockBuyingAndSelling(start) {
+    for (let i = start; i < start + 4; ++i) {
+      document.getElementById(`buy${this.mStocks.stockList.stocks[i].brandName}`).addEventListener('click', (e) => {
+        e.preventDefault();
+        let bQty = document.getElementById(`buy${this.mStocks.stockList.stocks[i].brandName}Ammt`).value;
+        if (bQty === "" || bQty < 1) {
+          document.getElementsByClassName("error")[0].innerText = "Error, you must buy at least one share";
+        } else if (bQty * this.mStocks.stockList.stocks[i].price > this.mStocks.cash) {
+          document.getElementsByClassName("error")[0].innerText = "Error, not enough cash for this purchase";
+        } else {
+          this.mStocks.buy(this.mStocks.stockList.stocks[i].brandName, bQty);
+          this.setRoute("/game")
+        }
+      });
+      document.getElementById(`sell${this.mStocks.stockList.stocks[i].brandName}`).addEventListener('click', (e) => {
+        e.preventDefault();
+        let sQty = document.getElementById(`sell${this.mStocks.stockList.stocks[i].brandName}Ammt`).value;
+        if (sQty === "" || sQty < 1) {
+          document.getElementsByClassName("error")[0].innerText = "Error, you must sell at least one share";
+        } else if (sQty > this.mStocks.stockList.stocks[i].quantity) {
+          document.getElementsByClassName("error")[0].innerText = "Error, you don't own this many shares";
+        } else {
+          this.mStocks.sell(this.mStocks.stockList.stocks[i].brandName, sQty);
+          this.setRoute("/game")
+        }
+      });
+    }
+  }
+
   /*
    * Handle setting a new route
    * @param route: string - url of page we want to display
@@ -271,8 +304,7 @@ class MyApp {
 
       case "/game":
         // Render the profile template
-        const myList = { data: [1, 2, 3, 4, 5] };
-        const profileContent = profileTemplate(myList);
+        const profileContent = profileTemplate(this.mStocks.stockList);
         // Modify the DOM with the generated content
         main.innerHTML = profileContent;
         document.getElementById("toMarket").addEventListener('click', () => {
@@ -291,14 +323,49 @@ class MyApp {
         const sectors = document.getElementsByClassName("sector-item");
         for (let i = 0; i < sectors.length; ++i) {
           sectors[i].addEventListener('click', () => {
-            console.log(sectors[i].innerText);
-            this.setRoute(`/sector/${sectors[i].innerText}`);
+            this.setRoute(`/market/${sectors[i].innerText}`);
           });
         }
         break;
-      case "/sector/Auto":
+      case "/market/Auto":
         const autoContent = autoSectorTemplate(this.mStocks.stockList);
         main.innerHTML = autoContent;
+        document.getElementById("auto-cancel").addEventListener('click',() => {
+          this.setRoute("/market");
+        });
+        this.setUpStockBuyingAndSelling(4);
+        break;
+      case "/market/Clothing":
+        const clothingContent = clothingSectorTemplate(this.mStocks.stockList);
+        main.innerHTML = clothingContent;
+        document.getElementById("cloth-cancel").addEventListener('click',() => {
+          this.setRoute("/market");
+        });
+        this.setUpStockBuyingAndSelling(0);
+        break;
+      case "/market/Tech":
+        const techContent = techSectorTemplate(this.mStocks.stockList);
+        main.innerHTML = techContent;
+        document.getElementById("tech-cancel").addEventListener('click',() => {
+          this.setRoute("/market");
+        });
+        this.setUpStockBuyingAndSelling(8);
+        break;
+      case "/market/Entertainment":
+        const entertainmentContent = entertainmentSectorTemplate(this.mStocks.stockList);
+        main.innerHTML = entertainmentContent;
+        document.getElementById("entertainment-cancel").addEventListener('click',() => {
+          this.setRoute("/market");
+        });
+        this.setUpStockBuyingAndSelling(16);
+        break;
+      case "/market/Dining":
+        const diningContent = diningSectorTemplate(this.mStocks.stockList);
+        main.innerHTML = diningContent;
+        document.getElementById("dining-cancel").addEventListener('click',() => {
+          this.setRoute("/market");
+        });
+        this.setUpStockBuyingAndSelling(12);
         break;
     }
   }
@@ -313,9 +380,9 @@ class stocks {
   }
 
   buy(name, ammt) {
-    this.stockList.forEach(stk => {
+    this.stockList.stocks.forEach(stk => {
       if (stk.brandName === name) {
-        stk.quantity += ammt;
+        stk.quantity += 1 * ammt;
         this.cash -= (stk.price * ammt);
         this.holdings += (stk.price * ammt);
       }
@@ -323,9 +390,9 @@ class stocks {
   }
 
   sell(name, ammt) {
-    this.stockList.forEach(stk => {
+    this.stockList.stocks.forEach(stk => {
       if (stk.brandName === name) {
-        stk.quantity -= ammt;
+        stk.quantity -= 1 * ammt;
         this.cash += (stk.price * ammt);
         this.holdings -= (stk.price * ammt);
       }

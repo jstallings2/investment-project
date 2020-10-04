@@ -2,6 +2,22 @@ li {
     color: blue;
 }
 
+#head {
+    position: absolute;
+    left: 5%;
+}
+
 #mainDiv {
     color: blue;
+    position: absolute;
+    left: 35%;
+}
+
+.error {
+    color: red;
+}
+
+.brandName {
+    font-weight: bold;
+    color: black;
 }

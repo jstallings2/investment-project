@@ -32,6 +32,6 @@ app.get("*", (req, res) => {
   res.sendFile(indexFile);
 });
 
-let server = app.listen(8080, () => {
+let server = app.listen(8079, () => {
   console.log("SPA Server listening on " + server.address().port);
 });

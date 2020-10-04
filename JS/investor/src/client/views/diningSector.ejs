@@ -1,81 +1,81 @@
-<h1>Auto:</h1>
+<h1>Dining:</h1>
 <div class="error"></div>
 <% stocks.forEach(stock => { %>
-    <%if (stock.brandName === 'Toyota') {%>
+    <%if (stock.brandName === 'Pepsi') {%>
         <div>
             <span class="brandName"><%=stock.brandName%></span>
             <span>Price: $<%=stock.price%>,</span>
             <span>You own: <%=stock.quantity%></span>
             <span>
                 <form>
-                    <input id="buyToyotaAmmt" type="number" placeholder="0"/>
-                    <button id="buyToyota">Buy</button>
+                    <input id="buyPepsiAmmt" type="number" placeholder="0"/>
+                    <button id="buyPepsi">Buy</button>
                 </form>
             </span>
             <span>
                 <form>
-                    <input id="sellToyotaAmmt" type="number" placeholder="0"/>
-                    <button id="sellToyota">Sell</button>
+                    <input id="sellPepsiAmmt" type="number" placeholder="0"/>
+                    <button id="sellPepsi">Sell</button>
                 </form>
             </span>
         </div>
     <%}%>
-    <%if (stock.brandName === 'Ford') {%>
+    <%if (stock.brandName === 'McDonald\'s') {%>
         <div>
             <span class="brandName"><%=stock.brandName%></span>
             <span>Price: $<%=stock.price%>,</span>
             <span>You own: <%=stock.quantity%></span>
             <span>
                 <form>
-                    <input id="buyFordAmmt" type="number" placeholder="0"/>
-                    <button id="buyFord">Buy</button>
+                    <input id="buyMcDonald'sAmmt" type="number" placeholder="0"/>
+                    <button id="buyMcDonald's">Buy</button>
                 </form>
             </span>
             <span>
                 <form>
-                    <input id="sellFordAmmt" type="number" placeholder="0"/>
-                    <button id="sellFord">Sell</button>
+                    <input id="sellMcDonald'sAmmt" type="number" placeholder="0"/>
+                    <button id="sellMcDonald's">Sell</button>
                 </form>
             </span>
         </div>
     <%}%>
-    <%if (stock.brandName === 'BMW') {%>
+    <%if (stock.brandName === 'Chipotle') {%>
         <div>
             <span class="brandName"><%=stock.brandName%></span>
             <span>Price: $<%=stock.price%>,</span>
             <span>You own: <%=stock.quantity%></span>
             <span>
                 <form>
-                    <input id="buyBMWAmmt" type="number" placeholder="0"/>
-                    <button id="buyBMW">Buy</button>
+                    <input id="buyChipotleAmmt" type="number" placeholder="0"/>
+                    <button id="buyChipotle">Buy</button>
                 </form>
             </span>
             <span>
                 <form>
-                    <input id="sellBMWAmmt" type="number" placeholder="0"/>
-                    <button id="sellBMW">Sell</button>
+                    <input id="sellChipotleAmmt" type="number" placeholder="0"/>
+                    <button id="sellChipotle">Sell</button>
                 </form>
             </span>
         </div>
     <%}%>
-    <% if (stock.brandName === 'Tesla') { %>
+    <% if (stock.brandName === 'Starbucks') { %>
         <div>
             <span class="brandName"><%=stock.brandName%></span>
             <span>Price: $<%=stock.price%>,</span>
             <span>You own: <%=stock.quantity%></span>
             <span>
                 <form>
-                    <input id="buyTeslaAmmt" type="number" placeholder="0"/>
-                    <button id="buyTesla">Buy</button>
+                    <input id="buyStarbucksAmmt" type="number" placeholder="0"/>
+                    <button id="buyStarbucks">Buy</button>
                 </form>
             </span>
              <span>
                 <form>
-                    <input id="sellTeslaAmmt" type="number" placeholder="0"/>
-                    <button id="sellTesla">Sell</button>
+                    <input id="sellStarbucksAmmt" type="number" placeholder="0"/>
+                    <button id="sellStarbucks">Sell</button>
                 </form>
             </span>
         </div>
     <% } %>
 <% }); %>
-<button id="auto-cancel">Cancel</button>
+<button id="dining-cancel">Cancel</button>
