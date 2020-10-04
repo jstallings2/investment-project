@@ -193,6 +193,8 @@ class Game {
     // private
     // Field to hold the list of available stocks in the game
     _availableStocks = [];
+    _stockCollection;
+    _eventCollection;
 
 
     // METHODS
@@ -202,22 +204,7 @@ class Game {
     }
 
     intitializeGame() {
-        initializeAvailableStocks();
         initializeUser();
-    }
-
-    initializeAvailableStocks() {
-        for(item of stockList) {
-            // Initialize a Stock object and push it to the field array
-            // TODO: Write Stock constructor
-            let newStock = new Stock(
-                                    item.brandName, 
-                                    item.sector, 
-                                    item.volatility,
-                                    item.growthRate, 
-                                    item.price);
-            this._availableStocks.push(newStock)
-        }
     }
 
     initializeUser() {
@@ -225,24 +212,57 @@ class Game {
         initializeUserStocks();
     }
 
+   
+
     initializeUserStocks() {
         for (let i = 0; i < this.NUMBER_OF_USER_STOCKS; i++) {
-            this._user.initStock(getRandomStock())
+            this._user.initStock(this._stockCollection.getRandomStock())
         }
     }
 
-    get user() {
+    getUser() {
         return this._user;
     }
 
-    // Test: array out of bounds exception is never thrown
-    getRandomStock() {
-        // There was a lot of C++ std::chrono stuff here
-        // Wasn't sure how to do that in JS so leaving it out for now
+    getNextEvent() {
+        return this._eventCollection.getRandomEvent();
+    }
 
-        // Should we make sure to also remove this stock from the list of available stocks?
-        return this._availableStocks[Math.floor(Math.random() * this._availableStocks.length)];
-        // remove stock from available
+    triggerEventExecution() { executeEvent(this.getNextEvent()); }
+
+    executeEvent(event) {
+        console.log("Name: " + event.getName() + "\n");
+        console.log("Description: " + event.getEventDescription() + "\n");
+
+        if (event.getModifierTag() === "PERCENT_MODIFY") {
+            for(companyString of event.getIndustries()) {
+                for(stock of this._stockCollection.getStockCollection()) {
+                    if (stock.getName() === companyString) {
+                        stock.setPrice(stock.getPrice() * event.getAmount());
+                    }
+                }
+            }
+        }
+        else if (event.getModifierTag === "INCREMENT") {
+            for(companyString of event.getIndustries()) {
+                for(stock of this._stockCollection.getStockCollection()) {
+                    if (stock.getName() === companyString) {
+                        stock.setPrice(stock.getPrice() + event.getAmount());
+                    }
+                }
+            }
+        }
+        else if (event.getModifierTag === "DECREMENT") {
+            for(companyString of event.getIndustries()) {
+                for(stock of this._stockCollection.getStockCollection()) {
+                    if (stock.getName() === companyString) {
+                        stock.setPrice(stock.getPrice() - event.getAmount());
+                    }
+                }
+            }
+        }
+
+        event.setUsed();
     }
 
     
