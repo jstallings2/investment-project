@@ -35,3 +35,7 @@ void User::printStocks() {
               << " | Stock Value: " << stock->getValue() << "\n";
   }
 }
+
+std::vector<Stock *> User::getStockContainer() {
+    return stockContainer;
+}

@@ -122,6 +122,60 @@ main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/Event.obj: src/Event.cpp.obj
+
+.PHONY : src/Event.obj
+
+# target to build an object file
+src/Event.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Event.cpp.obj
+.PHONY : src/Event.cpp.obj
+
+src/Event.i: src/Event.cpp.i
+
+.PHONY : src/Event.i
+
+# target to preprocess a source file
+src/Event.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Event.cpp.i
+.PHONY : src/Event.cpp.i
+
+src/Event.s: src/Event.cpp.s
+
+.PHONY : src/Event.s
+
+# target to generate assembly for a file
+src/Event.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Event.cpp.s
+.PHONY : src/Event.cpp.s
+
+src/EventCollectionHandler.obj: src/EventCollectionHandler.cpp.obj
+
+.PHONY : src/EventCollectionHandler.obj
+
+# target to build an object file
+src/EventCollectionHandler.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/EventCollectionHandler.cpp.obj
+.PHONY : src/EventCollectionHandler.cpp.obj
+
+src/EventCollectionHandler.i: src/EventCollectionHandler.cpp.i
+
+.PHONY : src/EventCollectionHandler.i
+
+# target to preprocess a source file
+src/EventCollectionHandler.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/EventCollectionHandler.cpp.i
+.PHONY : src/EventCollectionHandler.cpp.i
+
+src/EventCollectionHandler.s: src/EventCollectionHandler.cpp.s
+
+.PHONY : src/EventCollectionHandler.s
+
+# target to generate assembly for a file
+src/EventCollectionHandler.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/EventCollectionHandler.cpp.s
+.PHONY : src/EventCollectionHandler.cpp.s
+
 src/Game.obj: src/Game.cpp.obj
 
 .PHONY : src/Game.obj
@@ -175,6 +229,33 @@ src/Stock.s: src/Stock.cpp.s
 src/Stock.cpp.s:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Stock.cpp.s
 .PHONY : src/Stock.cpp.s
+
+src/StockCollectionHandler.obj: src/StockCollectionHandler.cpp.obj
+
+.PHONY : src/StockCollectionHandler.obj
+
+# target to build an object file
+src/StockCollectionHandler.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj
+.PHONY : src/StockCollectionHandler.cpp.obj
+
+src/StockCollectionHandler.i: src/StockCollectionHandler.cpp.i
+
+.PHONY : src/StockCollectionHandler.i
+
+# target to preprocess a source file
+src/StockCollectionHandler.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/StockCollectionHandler.cpp.i
+.PHONY : src/StockCollectionHandler.cpp.i
+
+src/StockCollectionHandler.s: src/StockCollectionHandler.cpp.s
+
+.PHONY : src/StockCollectionHandler.s
+
+# target to generate assembly for a file
+src/StockCollectionHandler.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/StockCollectionHandler.cpp.s
+.PHONY : src/StockCollectionHandler.cpp.s
 
 src/User.obj: src/User.cpp.obj
 
@@ -239,12 +320,21 @@ help:
 	@echo ... edit_cache
 	@echo ... main
 	@echo ... rebuild_cache
+	@echo ... src/Event.obj
+	@echo ... src/Event.i
+	@echo ... src/Event.s
+	@echo ... src/EventCollectionHandler.obj
+	@echo ... src/EventCollectionHandler.i
+	@echo ... src/EventCollectionHandler.s
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s
 	@echo ... src/Stock.obj
 	@echo ... src/Stock.i
 	@echo ... src/Stock.s
+	@echo ... src/StockCollectionHandler.obj
+	@echo ... src/StockCollectionHandler.i
+	@echo ... src/StockCollectionHandler.s
 	@echo ... src/User.obj
 	@echo ... src/User.i
 	@echo ... src/User.s

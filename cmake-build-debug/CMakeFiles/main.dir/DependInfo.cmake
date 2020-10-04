@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/Event.cpp" "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/cmake-build-debug/CMakeFiles/main.dir/src/Event.cpp.obj"
+  "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/EventCollectionHandler.cpp" "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/cmake-build-debug/CMakeFiles/main.dir/src/EventCollectionHandler.cpp.obj"
   "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/Game.cpp" "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/cmake-build-debug/CMakeFiles/main.dir/src/Game.cpp.obj"
   "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/Stock.cpp" "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/cmake-build-debug/CMakeFiles/main.dir/src/Stock.cpp.obj"
+  "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/StockCollectionHandler.cpp" "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/cmake-build-debug/CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj"
   "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/User.cpp" "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/cmake-build-debug/CMakeFiles/main.dir/src/User.cpp.obj"
   "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/driver.cpp" "C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/cmake-build-debug/CMakeFiles/main.dir/src/driver.cpp.obj"
   )
