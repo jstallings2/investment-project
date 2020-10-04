@@ -5,9 +5,9 @@
 #ifndef PROJECT1_GAME_H
 #define PROJECT1_GAME_H
 
-#include "User.h"
-#include "StockCollectionHandler.h"
 #include "EventCollectionHandler.h"
+#include "StockCollectionHandler.h"
+#include "User.h"
 
 const int NUMBER_OF_USER_STOCKS = 4;
 
