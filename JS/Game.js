@@ -7,7 +7,8 @@ class Game {
             "sector": "clothing",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/CLOTHING_ADIDAS.png"
         },
     
         {
@@ -15,7 +16,8 @@ class Game {
             "sector": "clothing",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/CLOTHING_NIKE.png"
         },
     
         {
@@ -23,42 +25,48 @@ class Game {
             "sector": "clothing",
             "volatility": 1,
             "growthRateRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/CLOTHING_OLD_NAVY.png"
         },
         {
             "brandName": "Levi",
             "sector": "clothing",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/CLOTHING_LEVI.png"
         },
         {
             "brandName": "Toyota",
             "sector": "auto",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/AUTO_TOYOTA.png"
         },
         {
             "brandName": "Ford",
             "sector": "auto",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/AUTO_FORD.png"
         },
         {
             "brandName": "BMW",
             "sector": "auto",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/AUTO_BMW.png"
         },
         {
             "brandName": "Tesla",
             "sector": "auto",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/AUTO_TESLA.png"
         },
     
         {
@@ -66,7 +74,8 @@ class Game {
             "sector": "tech",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/TECH_YOUTUBE.png"
         },
     
     
@@ -75,7 +84,8 @@ class Game {
             "sector": "tech",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/TECH_MICROSOFT.png"
         },
     
         {
@@ -83,7 +93,8 @@ class Game {
             "sector": "tech",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/TECH_APPLE.png"
         },
     
         {
@@ -91,7 +102,8 @@ class Game {
             "sector": "tech",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/TECH_GOOGLE.png"
         },
     
     
@@ -100,7 +112,8 @@ class Game {
             "sector": "dining",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/DINING_PEPSI.png"
         },
     
     
@@ -109,7 +122,8 @@ class Game {
             "sector": "dining",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/DINING_MCDONALDS.png"
         },
     
     
@@ -118,7 +132,8 @@ class Game {
             "sector": "dining",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/DINING_CHIPOTLE.png"
         },
     
     
@@ -127,7 +142,8 @@ class Game {
             "sector": "dining",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/DINING_STARBUCKS.png"
         },
     
         {
@@ -135,7 +151,8 @@ class Game {
             "sector": "entertainment",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/ENTERTAINMENT_WARNER_BROS.png"
         },
     
         {
@@ -143,7 +160,8 @@ class Game {
             "sector": "entertainment",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/ENTERTAINMENT_NBC.png"
         },
     
         {
@@ -151,7 +169,8 @@ class Game {
             "sector": "entertainment",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/ENTERTAINMENT_BLOCKBUSTER.png"
         },
     
         {
@@ -159,7 +178,8 @@ class Game {
             "sector": "entertainment",
             "volatility": 1,
             "growthRate": 1,
-            "price": 0.00
+            "price": 0.00,
+            "imagePath":"../assets/ENTERTAINMENT_DISNEY.png"
         }
     ]
 
