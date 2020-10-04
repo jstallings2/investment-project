@@ -20,21 +20,21 @@
             </span>
         </div>
     <%}%>
-    <%if (stock.brandName === 'NBC') {%>
+    <%if (stock.brandName === 'ABC') {%>
         <div>
             <span class="brandName"><%=stock.brandName%></span>
             <span>Price: $<%=stock.price%>,</span>
             <span>You own: <%=stock.quantity%></span>
             <span>
                 <form>
-                    <input id="buyNBCAmmt" type="number" placeholder="0"/>
-                    <button id="buyNBC">Buy</button>
+                    <input id="buyABCAmmt" type="number" placeholder="0"/>
+                    <button id="buyABC">Buy</button>
                 </form>
             </span>
             <span>
                 <form>
-                    <input id="sellNBCAmmt" type="number" placeholder="0"/>
-                    <button id="sellNBC">Sell</button>
+                    <input id="sellABCAmmt" type="number" placeholder="0"/>
+                    <button id="sellABC">Sell</button>
                 </form>
             </span>
         </div>
