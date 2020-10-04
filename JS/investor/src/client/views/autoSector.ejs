@@ -1,0 +1,25 @@
+<h1>Auto:</h1>
+<% stocks.forEach(stock => { %>
+    <%if (stock.sector === 'auto') {%>
+        <div>
+            <span><%=stock.brandName%>:</span>
+            <span>
+                <img src=<%=stock.imagePath%>/>
+            </span>
+            <span>Price: <%=stock.price%></span>
+            <span>You own: <%=stock.quantity%></span>
+            <span>
+                <form>
+                    <input type="number" placeholder="0"/>
+                    <button>Buy</button>
+                </form>
+            </span>
+            <span>
+                <form>
+                    <input type="number" placeholder="0"/>
+                    <button>Sell</button>
+                </form>
+            </span>
+        </div>
+    <%}%>
+<% }); %>
