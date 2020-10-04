@@ -5,6 +5,7 @@ class Stock {
     _volatility;
     _growthRate;
     _price;
+    _quantity;
   
    
     
@@ -14,36 +15,49 @@ class Stock {
         this._volatility = v;
         this._growthRate = gr;
         this._price = p;
+        this._quantity = 1;
     }
 
     // Getters
-    get brandName() {
+    getName() {
         return this._brandName;
     }
 
-    get sector() {
+    getSector() {
         return this._sector;
     }
 
-    get volatility() {
+    getVolatility() {
         return this._volatility;
     }
 
-    get growthRate() {
+    getGrowthRate() {
         return this._growthRate
     }
 
-    get price() {
+    getPrice() {
         return this._price;
     }
 
+    getQuantity() {
+        return this._quantity;
+    }
+
     // Setters
-    set price(value) {
+    setPrice(value) {
         this._price = value;
     }
 
-    set growthRate(value) {
+    setGrowthRate(value) {
         this._growthRate = value;
+    }
+
+    setVolatility(value) {
+        this._volatility = value;
+    }
+
+    setQuantity(value) {
+        this._quantity;
     }
 
     // Other methods
