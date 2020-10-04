@@ -40,7 +40,6 @@ class User {
         let total = 0;
         // sum up the prices*shares of all the stocks in hand?
         for (item in _userStocks) {
-            // if we go js object route, instead of numbers we would have field names
             total += (item.stock.price() * item.shares); 
        }
 
