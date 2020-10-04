@@ -6,19 +6,103 @@
 
 #IncludeRegexTransform: 
 
+../include/Event.h
+vector
+-
+string
+-
+User.h
+../include/User.h
+
+../include/EventCollectionHandler.h
+Event.h
+../include/Event.h
+
+../include/Game.h
+User.h
+../include/User.h
+StockCollectionHandler.h
+../include/StockCollectionHandler.h
+EventCollectionHandler.h
+../include/EventCollectionHandler.h
+
+../include/Stock.h
+string
+-
+
+../include/StockCollectionHandler.h
+vector
+-
+
+../include/User.h
+Stock.h
+../include/Stock.h
+vector
+-
+
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Event.h
+vector
+-
+string
+-
+User.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
+
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/EventCollectionHandler.h
+Event.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Event.h
+
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Game.h
+User.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
+StockCollectionHandler.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/StockCollectionHandler.h
+EventCollectionHandler.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/EventCollectionHandler.h
+
 C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Stock.h
 string
 -
 
-C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/StockCollectionHandler.h
 vector
 -
+
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
 Stock.h
 C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Stock.h
+vector
+-
 
-C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/User.cpp
-../include/User.h
-C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/User.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/EventCollectionHandler.cpp
+EventCollectionHandler.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/EventCollectionHandler.h
+Game.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/Game.h
+chrono
+-
+thread
+-
+algorithm
+-
+
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/Game.cpp
+../include/Game.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Game.h
+chrono
+-
+cstdint
+-
+fstream
+-
 iostream
 -
+thread
+-
+
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/src/driver.cpp
+../include/Game.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/Game.h
+../include/EventCollectionHandler.h
+C:/Users/camre/Desktop/Course Syllabi Vanderbilt/2020 Hackathon/include/EventCollectionHandler.h
 

@@ -112,12 +112,57 @@ CMakeFiles/main.dir/src/driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/driver.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\src\driver.cpp" -o CMakeFiles\main.dir\src\driver.cpp.s
 
+CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj: ../src/StockCollectionHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\src\StockCollectionHandler.cpp.obj -c "C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\src\StockCollectionHandler.cpp"
+
+CMakeFiles/main.dir/src/StockCollectionHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/StockCollectionHandler.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\src\StockCollectionHandler.cpp" > CMakeFiles\main.dir\src\StockCollectionHandler.cpp.i
+
+CMakeFiles/main.dir/src/StockCollectionHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/StockCollectionHandler.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\src\StockCollectionHandler.cpp" -o CMakeFiles\main.dir\src\StockCollectionHandler.cpp.s
+
+CMakeFiles/main.dir/src/Event.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Event.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Event.cpp.obj: ../src/Event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/Event.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\src\Event.cpp.obj -c "C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\src\Event.cpp"
+
+CMakeFiles/main.dir/src/Event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Event.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\src\Event.cpp" > CMakeFiles\main.dir\src\Event.cpp.i
+
+CMakeFiles/main.dir/src/Event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Event.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\src\Event.cpp" -o CMakeFiles\main.dir\src\Event.cpp.s
+
+CMakeFiles/main.dir/src/EventCollectionHandler.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/EventCollectionHandler.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/EventCollectionHandler.cpp.obj: ../src/EventCollectionHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/EventCollectionHandler.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\src\EventCollectionHandler.cpp.obj -c "C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\src\EventCollectionHandler.cpp"
+
+CMakeFiles/main.dir/src/EventCollectionHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/EventCollectionHandler.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\src\EventCollectionHandler.cpp" > CMakeFiles\main.dir\src\EventCollectionHandler.cpp.i
+
+CMakeFiles/main.dir/src/EventCollectionHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/EventCollectionHandler.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\src\EventCollectionHandler.cpp" -o CMakeFiles\main.dir\src\EventCollectionHandler.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/User.cpp.obj" \
 "CMakeFiles/main.dir/src/Stock.cpp.obj" \
 "CMakeFiles/main.dir/src/Game.cpp.obj" \
-"CMakeFiles/main.dir/src/driver.cpp.obj"
+"CMakeFiles/main.dir/src/driver.cpp.obj" \
+"CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj" \
+"CMakeFiles/main.dir/src/Event.cpp.obj" \
+"CMakeFiles/main.dir/src/EventCollectionHandler.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -126,11 +171,14 @@ main.exe: CMakeFiles/main.dir/src/User.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Stock.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Game.cpp.obj
 main.exe: CMakeFiles/main.dir/src/driver.cpp.obj
+main.exe: CMakeFiles/main.dir/src/StockCollectionHandler.cpp.obj
+main.exe: CMakeFiles/main.dir/src/Event.cpp.obj
+main.exe: CMakeFiles/main.dir/src/EventCollectionHandler.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linklibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\camre\Desktop\Course Syllabi Vanderbilt\2020 Hackathon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
